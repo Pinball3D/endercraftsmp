@@ -14,7 +14,7 @@ var getJSON = function(url, callback) {
 };
 getJSON('https://api.mcsrvstat.us/2/play.endercraftsmp.tk', function(err, data) {
 var player = 0
-  while (player <= data.players.online-1) {
+  while (player <= data.players.online) {
     var playername = data.players.list[player]
     console.log(playername)
     var playerelement = document.createElement('div')
