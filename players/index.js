@@ -18,9 +18,13 @@ var player = 0
     var playername = data.players.list[player]
     console.log(playername)
     var playerelement = document.createElement('div')
+    if (data.players.online == 0) {
+       playerelement.innerHTML = "There are no players online." 
+    }
+    else if (data.players.online > 0) {
     playerelement.innerHTML = playername
     document.body.appendChild(playerelement)
-  
+    }
     player += 1
    
   }
