@@ -1,5 +1,5 @@
 $(document).ready(function() {
-    daisyjs(document.getElementById('momoland'), {
+    daisyjs(document.getElementById('content'), {
     dotColor: '#fff',
     lineColor: '#ddd'
   });
