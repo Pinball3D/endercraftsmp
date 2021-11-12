@@ -1,4 +1,7 @@
-tsParticles.load("tsparticles", {
+$("#tsparticles")
+  .particles()
+  .init(
+    {
   fullScreen: {
     enable: true
   },
@@ -200,4 +203,5 @@ tsParticles.load("tsparticles", {
       }
     }
   }
-});
+}
+  );
