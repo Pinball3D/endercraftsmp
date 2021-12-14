@@ -5,6 +5,10 @@
 #title {
   font-family: minecraftia;
 }
+#tsparticles {
+  height: 25%;
+  width: 100%
+}
 .main {
   font-family: Serif;
   background: #fff;
